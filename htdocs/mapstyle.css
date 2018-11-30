@@ -1,0 +1,21 @@
+/*デフォルトの設定*/
+*{margin:0;padding:0}
+/*ヘッダの設定*/
+div#header
+
+{
+/*ボックスの設定*/
+padding: 0 0 0 2%;/*枠内余白*//*上右下左の余白*/
+background: #f3f3e7;
+color: #f03351;
+}
+
+/*ナビの設定*/
+div#navi
+{
+/*ボックスの設定*/
+width:15%;/*幅*/
+height:50px;/*高さ*/
+padding: 0 0 0 2%;/*枠内余白*//*上右下左の余白*/
+box-sizing:border-box;/*幅と高さと余白*//*含める*/
+float:center;/*回り込み*//*左寄せ*/
