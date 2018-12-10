@@ -1,17 +1,28 @@
 /*デフォルトの設定*/
 *{margin:0;padding:0}
 
+body{
+	background:#f3f3e7;
+}
 /*ヘッダの設定*/
 div#header{
 	/*ボックスの設定*/
 	padding: 0 0 0 0%;/*枠内余白*//*上右下左の余白*/
 	background: #3f3f47;/*背景*//*色*/
 	/*文字の設定*/
-	color: #f03351;/*文字の色*//*白*/
+	color: #f3f3e7;/*文字の色*//*白*/
+	overflow: auto;/*画像のはみ出し防止*/
+}
+div#button{
+	text-align:left;
 }
 
-/*コンテンツの設定*/
-div#content{
-	padding: 0 0 0 0%;/*枠内余白*//*上右下左の余白*/
-	background: #f3f3e7;/*背景*//*色*/
+.titlebar{
+	display:table; width:100%; background-color:#3f3f47;color:#f3f3e7;
+}
+.button{
+	display:table-cell; text-align:left;
+}
+.header{
+	display:table-cell; text-align:left;
 }
