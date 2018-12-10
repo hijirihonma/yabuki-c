@@ -19,7 +19,8 @@ div#button{
 }
 
 .titlebar{
-	display:table; width:100%; background-color:#3f3f47;color:#f3f3e7;
+	display:table; width:100%; background-color:#3f3f47;
+	color:#f3f3e7;
 }
 .button{
 	display:table-cell; text-align:left;
